@@ -134,9 +134,9 @@ Object-Detection
 To convert these into TFRecords, run the following commands:
 
 ```bash
-python generate_tfrecord.py --csv_input=data/train_labels.csv --output_path=data/train.record
+python generate_tfrecord.py --csv_input=training_data/train_labels.csv --output_path=training_data/train.record
 
-python generate_tfrecord.py --csv_input=data/test_labels.csv --output_path=data/test.record
+python generate_tfrecord.py --csv_input=training_data/test_labels.csv --output_path=training_data/test.record
 ```
 # TensorFlow model
 
