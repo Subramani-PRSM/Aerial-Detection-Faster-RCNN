@@ -1,0 +1,38 @@
+<annotation>
+	<folder>New folder</folder>
+	<filename>(1028).jpg</filename>
+	<path>C:\Users\hsing\OneDrive\Documents\New folder\New folder\(1028).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>person</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>323</xmin>
+			<ymin>41</ymin>
+			<xmax>372</xmax>
+			<ymax>95</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bench</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>431</xmin>
+			<ymin>512</ymin>
+			<xmax>503</xmax>
+			<ymax>595</ymax>
+		</bndbox>
+	</object>
+</annotation>

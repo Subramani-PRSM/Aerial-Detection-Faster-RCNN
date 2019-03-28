@@ -1,0 +1,26 @@
+<annotation>
+	<folder>ANOTATION FINAL</folder>
+	<filename>(15).jpg</filename>
+	<path>C:/Users/hsing/OneDrive/Documents/New folder/ANOTATION FINAL/(15).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>person</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2</xmin>
+			<ymin>321</ymin>
+			<xmax>31</xmax>
+			<ymax>376</ymax>
+		</bndbox>
+	</object>
+</annotation>
