@@ -18,7 +18,7 @@ Tensorflow Object Detection API depends on the following libraries:
 *   Keras
 *   Matplotlib
 *   Tensorflow
-*  
+
 
 ```
 # For CPU
