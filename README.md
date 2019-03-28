@@ -105,7 +105,7 @@ An example input configuration looks as follows:
 
 ```
 tf_record_input_reader {
-  input_path: "/usr/home/username/data/train.record"
+  input_path: "/usr/home/username/training_data/train.record"
 }
 label_map_path: "/usr/home/username/data/label_map.pbtxt"
 ```
@@ -133,7 +133,7 @@ Object-Detection
 
 To convert these into TFRecords, run the following commands:
 
-```bash
+```
 python generate_tfrecord.py --csv_input=training_data/train_labels.csv --output_path=training_data/train.record
 
 python generate_tfrecord.py --csv_input=training_data/test_labels.csv --output_path=training_data/test.record
@@ -145,8 +145,8 @@ with the configuration file ssd_mobilenet_v1_pets.config from [https://github.co
 
 start the training with
 
-```bash
-python3 train.py --logtostderr --train_dir=training/ --pipeline_config_path=training/faster_rcnn_inception_v2_coco.config
+```
+python train.py --logtostderr --train_dir=training/ --pipeline_config_path=training/faster_rcnn_inception_v2_coco.config
 ```
 
 From models/object_detection, via terminal, start TensorBoard with:
