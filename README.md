@@ -21,7 +21,7 @@ Tensorflow Object Detection API depends on the following libraries:
 
 # Tensorflow Models
 
-##   https://github.com/tensorflow/models
+## https://github.com/tensorflow/models
 
 ```
 # For CPU
