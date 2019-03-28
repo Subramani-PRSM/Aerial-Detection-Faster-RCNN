@@ -1,12 +1,7 @@
 # Aerial-Detection-Faster-RCNN
 Human detection for Search and Rescue operation in UAV’s using Faster RCNN Model
 
-
-
-
-
-
-
+![Picture1](https://user-images.githubusercontent.com/44836755/55151340-0d238a80-5174-11e9-94c5-cd3e5f0b546c.jpg)
 
 # Installations
 
