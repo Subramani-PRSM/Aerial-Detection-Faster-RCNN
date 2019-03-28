@@ -1,0 +1,47 @@
+item {
+  id: 1
+  name: 'person'
+}
+
+item {
+  id: 2
+  name: 'car'
+}
+
+item {
+  id: 3
+  name: 'bench'
+}
+
+item {
+  id: 4
+  name: 'trolley'
+}
+
+item {
+  id: 5
+  name: 'drone'
+}
+
+item {
+  id: 6
+  name: 'table'
+}
+
+item {
+  id: 7
+  name: 'stone'
+}
+
+item {
+  id: 8
+  name: 'wood'
+}
+item {
+  id: 9
+  name: 'person is sitting'
+}
+item {
+  id: 10
+  name: 'two person'
+}
