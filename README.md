@@ -118,20 +118,17 @@ Images are labelled using lblImg [https://github.com/tzutalin/labelImg] which is
 XML files are then converted to csv format using sml_to_csv.py [https://github.com/datitran/raccoon_dataset/blob/master/xml_to_csv.py]
 
 Now the folder structure for object detection will look as follows
-```bash
+```
 Object-Detection
--data/
+-training_data/
 --test_labels.csv
 --train_labels.csv
--images/
---test/
----testingimages.jpg
---train/
+--test_images/
 ---testingimages.jpg
 --...yourimages.jpg
--training
--xml_to_csv.py
-
+--training_images/
+---testingimages.jpg
+--...yourimages.jpg
 ```
 
 To convert these into TFRecords, run the following commands:
