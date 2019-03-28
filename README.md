@@ -20,7 +20,7 @@ Tensorflow Object Detection API depends on the following libraries:
 *   Tensorflow
 
 # Tensorflow Models
- ## https://github.com/tensorflow/models
+ # https://github.com/tensorflow/models
 
 ```
 # For CPU
@@ -140,7 +140,7 @@ python generate_tfrecord.py --csv_input=training_data/test_labels.csv --output_p
 ```
 # TensorFlow model
 
-model used for object detection is coco trained ssd_mobilenet_v1 which can be downloaded from [https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md]
+model used for object detection is coco trained faster_rcnn_inception_v2 which can be downloaded from [https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md]
 with the configuration file ssd_mobilenet_v1_pets.config from [https://github.com/tensorflow/models/tree/master/research/object_detection/samples/configs]
 
 start the training with
