@@ -19,8 +19,9 @@ Tensorflow Object Detection API depends on the following libraries:
 *   Matplotlib
 *   Tensorflow
 
-# Tnsorflow Models
-   https://github.com/tensorflow/models
+# Tensorflow Models
+
+##   https://github.com/tensorflow/models
 
 ```
 # For CPU
